@@ -1,0 +1,48 @@
+C51 COMPILER V9.54   MAIN                                                                  03/23/2016 19:09:16 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\KEIL\C51_8051\C51\BIN\C51.EXE 00_CODES\01_MAIN\main.c OMF2 OPTIMIZE(0,SIZE) 
+                    -BROWSE INCDIR(.\00_CODES;.\00_CODES\01_MAIN;.\00_CODES\02_DELAY;.\00_CODES\03_CORE;.\00_CODES\04_MEMORY) DEBUG PRINT(.\L
+                    -istings\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <delay.h>
+   2          #include <core.h>
+   3          #include <mem.h>
+   4          //=====================================================
+   5          
+   6          void main()
+   7          {
+   8   1        init_sys(0);
+   9   1        while(1)
+  10   1        {
+  11   2          //state-inputs polling
+  12   2          if(state_overrun==1)
+  13   2          {
+  14   3            //init_sys(0);
+  15   3          }
+  16   2        }
+  17   1      }
+  18          
+  19          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     11    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

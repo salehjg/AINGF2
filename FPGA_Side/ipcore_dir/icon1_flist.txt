@@ -1,0 +1,27 @@
+# Output products list for <icon1>
+icon1.asy
+icon1.constraints\icon1.ucf
+icon1.constraints\icon1.xdc
+icon1.gise
+icon1.ngc
+icon1.sym
+icon1.ucf
+icon1.v
+icon1.veo
+icon1.xco
+icon1.xdc
+icon1.xise
+icon1\example_design\example_icon1.ucf
+icon1\example_design\example_icon1.v
+icon1\example_design\icon1_bb_lib.v
+icon1\implement\chipscope_vio.xco
+icon1\implement\coregen.cgp
+icon1\implement\example_icon1.prj
+icon1\implement\example_icon1.xst
+icon1\implement\ise_implement.bat
+icon1\implement\ise_implement.sh
+icon1\implement\pa_ise_implement.tcl
+icon1\read_me.txt
+icon1_flist.txt
+icon1_readme.txt
+icon1_xmdf.tcl

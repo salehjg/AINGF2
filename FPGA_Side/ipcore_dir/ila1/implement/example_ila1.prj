@@ -1,0 +1,2 @@
+verilog work "../example_design/example_ila1.v"
+verilog work "../example_design/ila1_bb_lib.v"

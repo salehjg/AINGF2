@@ -1,0 +1,92 @@
+/* --------------------------------------------------------------------- */
+/* This is the synthesis script for the 8051 microcontroller             */
+/* --------------------------------------------------------------------- */
+
+sh date
+sh hostname
+
+main_module = mc8051_core
+
+file_list = {mc8051_p, \
+             control_fsm_, \
+             control_fsm_rtl, \
+             control_mem_, \
+             control_mem_rtl, \
+             mc8051_control_, \
+             mc8051_control_struc, \
+             alucore_, \
+             alucore_rtl, \
+             alumux_, \
+             alumux_rtl, \
+             addsub_cy_, \
+             addsub_cy_rtl, \
+             addsub_ovcy_, \
+             addsub_ovcy_rtl, \
+             addsub_core_, \
+             addsub_core_struc, \
+             comb_divider_, \
+             comb_divider_rtl, \
+             comb_mltplr_, \
+             comb_mltplr_rtl, \
+             dcml_adjust_, \
+             dcml_adjust_rtl, \
+             mc8051_alu_, \
+             mc8051_alu_struc, \
+             mc8051_siu_, \
+             mc8051_siu_rtl, \
+             mc8051_tmrctr_, \
+             mc8051_tmrctr_rtl, \
+             mc8051_core_, \
+             mc8051_core_struc}   
+
+
+db_area = "./db/"
+vhd_area = "../vhdl/"
+report_area = "./reports/"
+script_area = "./scr/"
+
+foreach (member, file_list) {
+   analyze -format vhdl vhd_area + member + ".vhd"
+   if (dc_shell_status == 0) {
+      echo "ANALYSIS ERROR OR FILE " member " NOT FOUND"
+      quit
+   }
+}
+
+elaborate main_module -update
+
+check_design
+
+write -f db -h -o db_area + main_module + "_pre.db"
+
+uniquify
+
+ungroup -all -flatten
+
+current_design = main_module
+
+create_clock -period 100 -waveform {0 50} -name clk clk
+set_clock_skew -ideal {clk}
+set_dont_touch_network {clk} 
+
+/* Compile the design and write database */
+
+check_design
+
+compile
+
+write -f db -h -o db_area + main_module + ".db"
+write -format vhdl -hierarchy -output db_area + main_module + ".vhd"
+
+check_design
+
+/* Generate reports */
+
+report_area > report_area + main_module + ".area"
+
+report_timing > report_area + main_module + ".time"
+
+report_cell > report_area + main_module + ".cell"
+
+sh date
+quit

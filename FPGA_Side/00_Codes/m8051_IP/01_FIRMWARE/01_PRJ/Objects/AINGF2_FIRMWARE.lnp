@@ -1,0 +1,7 @@
+".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+
+PRINT(".\Listings\AINGF2_FIRMWARE.map")

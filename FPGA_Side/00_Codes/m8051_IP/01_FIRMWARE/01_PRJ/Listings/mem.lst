@@ -1,0 +1,44 @@
+C51 COMPILER V9.52.0.0   MEM                                                               03/23/2016 17:12:40 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE MEM
+OBJECT MODULE PLACED IN .\Objects\mem.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\KEIL\C51_Version\C51\BIN\C51.EXE 00_CODES\04_MEMORY\mem.c OMF2 OPTIMIZE(0,SI
+                    -ZE) BROWSE INCDIR(.\00_CODES;.\00_CODES\01_MAIN;.\00_CODES\02_DELAY;.\00_CODES\03_CORE;.\00_CODES\04_MEMORY) DEBUG PRINT
+                    -(.\Listings\mem.lst) TABS(2) OBJECT(.\Objects\mem.obj)
+
+line level    source
+
+   1          #include <REG51.H>
+   2          #include <mem.h>
+   3          //--------------------------------------------------------------------------------------------------------
+             -------------------------------------------------
+   4          //DO NOT DEFINE sbit HERE AND extern THEM IN HEADER mem.h , JUST DEFINE THEM WHIT THEIR VALUES IN mem.h ( 
+             -WARNING: NO extern ALLOWED ON sbit(s) )
+   5          //--------------------------------------------------------------------------------------------------------
+             -------------------------------------------------
+   6          
+   7          
+   8          int i = 0 ; 
+   9          int j = 0 ; 
+  10          int k = 0 ; 
+  11          
+  12          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

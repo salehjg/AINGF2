@@ -1,0 +1,70 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'mc8051_rom' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'mc8051_rom'...
+WARNING:sim - A core named 'mc8051_rom' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'mc8051_rom'...
+Delivering associated files for 'mc8051_rom'...
+Delivering EJava files for 'mc8051_rom'...
+Generating implementation netlist for 'mc8051_rom'...
+INFO:sim - Pre-processing HDL files for 'mc8051_rom'...
+Running synthesis for 'mc8051_rom'
+Running ngcbuild...
+Writing VEO instantiation template for 'mc8051_rom'...
+Writing Verilog behavioral simulation model for 'mc8051_rom'...
+WARNING:sim - Overwriting existing file
+   F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENT
+   ER_V2/ipcore_dir/tmp/_cg/mc8051_rom/doc/blk_mem_gen_v7_3_vinfo.html with file
+   from view xilinx_documentation
+Delivered 1 file into directory
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'mc8051_rom'...
+Generating metadata file...
+Regenerating ISE project file for 'mc8051_rom'...
+Generating ISE project...
+XCO file found: mc8051_rom.xco
+XMDF file found: mc8051_rom_xmdf.tcl
+Adding
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom.asy -view all -origin_type imported
+Adding
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom.ngc -view all -origin_type created
+Checking file
+"F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER
+_V2/ipcore_dir/tmp/_cg/mc8051_rom.ngc" for project device match ...
+File
+"F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER
+_V2/ipcore_dir/tmp/_cg/mc8051_rom.ngc" device information matches project
+device.
+Adding
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom.sym -view all -origin_type imported
+Adding
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CEN
+   TER_V2/ipcore_dir/tmp/_cg/mc8051_rom.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+F:/Saleh/Saleh_Files/FPGA/Boards/02_AINGF_V2/01_VerilogPRJ/CamCTRLR_SRAM_CENTER_
+V2/ipcore_dir/tmp/_cg/mc8051_rom.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/mc8051_rom"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'mc8051_rom'.

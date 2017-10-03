@@ -1,0 +1,254 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\01_VerilogPRJ\CamCTRLR_SRAM_CENTER_V2\00_Codes\m8051_IP\01_FIRMWARE\01_PRJ\AINGF2_FIRMWARE.uvproj
+Project File Date:  03/23/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+compiling core.c...
+00_CODES\03_CORE\core.c(6): warning C280: 'mode': unreferenced local variable
+compiling mem.c...
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created
+Build target 'Target 1'
+linking...
+LX51 LINKER/LOCATER V4.66.1.0 - SN: T1NMC-51KX5C
+COPYRIGHT ARM Germany GmbH 1995 - 2013
+@.\Objects\AINGF2~1.LNP ".\Objects\main.obj",
+".\Objects\delay.obj",
+".\Objects\core.obj",
+".\Objects\mem.obj" 
+TO ".\Objects\AINGF2_FIRMWARE" 
+PRINT(".\Listings\AINGF2_FIRMWARE.map")
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00D6H BYTE (10%) *
+******************************************************************************
+Program Size: data=27.0 xdata=0 const=0 code=358
+*** ERROR L257: EXTENDED LINKER REQUIRES UPGRADE TO PK51
+Target not created

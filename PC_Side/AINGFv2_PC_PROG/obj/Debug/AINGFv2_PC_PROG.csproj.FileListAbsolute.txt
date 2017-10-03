@@ -1,0 +1,19 @@
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.csprojResolveAssemblyReference.cache
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.Form1.resources
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.Properties.Resources.resources
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.csproj.GenerateResource.Cache
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\AINGFv2_PC_PROG.exe
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\AINGFv2_PC_PROG.pdb
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\CyUSB.dll
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.exe
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.pdb
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.exe
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.pdb
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\AINGFv2_PC_PROG.exe
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\AINGFv2_PC_PROG.pdb
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\bin\Debug\CyUSB.dll
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.csprojResolveAssemblyReference.cache
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.Form1.resources
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.Properties.Resources.resources
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.csproj.GenerateResource.Cache
+F:\Saleh\Saleh_Files\FPGA\Boards\02_AINGF_V2\06_PC Program\01_PRJ\AINGFv2_PC_PROG\obj\Debug\AINGFv2_PC_PROG.frm_SCCB_Content.resources

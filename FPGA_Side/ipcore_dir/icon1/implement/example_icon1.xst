@@ -1,0 +1,14 @@
+run
+-top example_icon1
+-ifn example_icon1.prj
+-ofmt NGC
+-ofn example_icon1.ngc
+-p xc3s400-pq208-4
+-ifmt mixed
+-opt_mode Speed
+-opt_level 2
+-read_cores YES
+-bufg 0
+-iobuf YES
+#-iob auto
+ 

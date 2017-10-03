@@ -1,0 +1,87 @@
+C51 COMPILER V9.52.0.0   CORE                                                              03/23/2016 17:12:40 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE CORE
+OBJECT MODULE PLACED IN .\Objects\core.obj
+COMPILER INVOKED BY: C:\Program Files (x86)\KEIL\C51_Version\C51\BIN\C51.EXE 00_CODES\03_CORE\core.c OMF2 OPTIMIZE(0,SIZ
+                    -E) BROWSE INCDIR(.\00_CODES;.\00_CODES\01_MAIN;.\00_CODES\02_DELAY;.\00_CODES\03_CORE;.\00_CODES\04_MEMORY) DEBUG PRINT(
+                    -.\Listings\core.lst) TABS(2) OBJECT(.\Objects\core.obj)
+
+line level    source
+
+   1          #include <delay.h>
+   2          #include <mem.h>
+   3          #include <core.h>
+   4          //==================================================
+   5          
+   6          void init_sys( char mode )
+   7          {
+   8   1        P2=0xFF;    //ALL'RE INPUTS
+   9   1        //-------------------
+  10   1        P0=0;       //ALL'RE OUTPUTS
+  11   1        P1=0;       //ALL'RE OUTPUTS
+  12   1        
+  13   1        /////////////////////////////////////////////////
+  14   1        blink_yellow(20,75); //fast blink
+  15   1        
+  16   1        /////////////////////////////////////////////////
+  17   1        reset_deep();
+  18   1        
+  19   1        /////////////////////////////////////////////////
+  20   1        reset_i3c();
+  21   1        
+  22   1        /////////////////////////////////////////////////
+  23   1        delay_ms(500);
+  24   1        
+  25   1        /////////////////////////////////////////////////
+  26   1        blink_yellow(20,25); //fast blink
+  27   1        
+  28   1        /////////////////////////////////////////////////
+  29   1      }
+*** WARNING C280 IN LINE 6 OF 00_CODES\03_CORE\core.c: 'mode': unreferenced local variable
+  30          
+  31          //======================================================================================
+  32          void reset_deep()
+  33          {
+  34   1        trig_deep_nrst=0;
+  35   1        delay_ms(1);
+  36   1        trig_deep_nrst=1;
+  37   1      }
+  38          
+  39          //======================================================================================
+  40          void reset_i3c()
+  41          {
+  42   1        trig_i3c_nrst=0;
+  43   1        delay_ms(1);
+  44   1        trig_i3c_nrst=1;  
+  45   1      }
+  46          
+  47          //======================================================================================
+  48          void blink_yellow(int count, int delay)
+  49          {
+  50   1        for(i=0;i<count;i++)
+  51   1        {
+  52   2          LED_Y = ~LED_Y;
+C51 COMPILER V9.52.0.0   CORE                                                              03/23/2016 17:12:40 PAGE 2   
+
+  53   2          delay_ms(delay);
+  54   2        }
+  55   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    122    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      5    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

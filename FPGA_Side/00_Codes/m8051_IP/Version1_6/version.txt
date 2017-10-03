@@ -1,0 +1,99 @@
+This is version 1.6 of the MC8051 IP core.
+
+March 2010: Oregano Systems - Design & Consulting GesmbH
+============================================================
+Changes: 
+- In certain interrupt situations the stack pointer still 
+  has been erroneously set in control_mem_rtl.vhd, revision
+  1.10 and below. This has been corrected again in revision
+  1.11 of this file.
+- The Serial Unit did not handle receives with only one
+  stop bit correctly in Mode1 in file mc8051_siu_rtl.vhd,
+  revision 1.9 and below. This has been corrected with
+  revision 1.10 of this file.
+- The CJNE opcode did not clear the carry flag when it 
+  should in file control_fsm_rtl.vhd, revision 1.9 and 
+  below. This has been corrected with revision 1.10 of this
+  file.
+
+
+
+************************************************************
+This is version 1.5 of the MC8051 IP core.
+
+September 2006: Oregano Systems - Design & Consulting GesmbH
+============================================================
+Changes: 
+- When an interrupt is pending and the instruction executed
+  is RETI or a write access to IE or IP one more instruction
+  is executed before vectoring to the interrupt routine.
+- The synchronization stage of the interrupt inputs in the
+  timer/counter unit has been hardended with additional
+  series flip-flops due to the high operating frequencies
+  nowadays in use.
+- A prescaler in the serial interface unit has been changed
+  to 1/12 instead of 1/16 to conform to mode 0 databook 
+  descriptions.
+- The carry flag was incorrectly reset during a special 
+  situation. This has been corrected.
+- tmr/ctr1 erroneously used his run flag when tmr/ctr0 was
+  in mode 3. This has been corrected.
+- In certain interrupt situations the stack pointer has 
+  been erroneously set. This has been corrected.
+============================================================
+Oregano Systems - Design & Consulting GesmbH
+Phorusgasse 8, A-1040 Vienna
+
+@: mc8051@oregano.at
+W: http://oregano.at/ip/8051.htm
+
+
+
+************************************************************
+This is version 1.4 of the MC8051 IP core.
+
+November 2004: Oregano Systems - Design & Consulting GesmbH
+============================================================
+Changes:
+- corrected behaviour of RETI instruction handling
+- added synchronization for interrupt signals
+- corrected timer problems
+
+
+
+************************************************************
+This is version 1.3 of the MC8051 IP core.
+
+September 2002: Oregano Systems - Design & Consulting GesmbH
+============================================================
+Change history:
+- Improved tb_mc8051_siu_sim.vhd to verify duplex operation.
+- Corrected problem with duplex operation in file 
+  mc8051_siu_rtl.vhd
+
+
+
+************************************************************
+This is version 1.2. of the MC8051 IP core.
+
+June 2002 - Oregano Systems - Design & Consulting GesmbH
+============================================================
+Change history:
+- Eliminated the scr subdirectory form the distribution.
+- Improved documentation.
+- Corrected several bugs in the source code (see the
+  website for more details).
+- Improved the testbench with respect to the I/O port
+  behavior.
+- Enriched the msim directory with the assembler source
+  code of an example program.
+- Provided the source code of a Intel hex to binary
+  textfile converter to ease simulation of the user's
+  assambler programs.
+
+
+
+************************************************************
+This is version 1.1. of the MC8051 IP core.
+
+Jan 31st 2002 - Oregano Systems - Design & Consulting GesmbH
